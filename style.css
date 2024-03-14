@@ -1,0 +1,97 @@
+body{
+  margin: 0;
+  width: 350px;
+  border-radius: 15%;
+  height: auto;
+}
+
+
+.container {
+
+  position: relative;
+  overflow: clip;
+
+
+}
+
+.select-section {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#lang-dropdown {
+  max-height: 30px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+
+}
+
+#voice-dropdown {
+   margin: 5px;
+   width: 100px;
+   border-radius: 5px;
+   border: none;
+}
+
+
+
+.lang-option{
+  text-align: center;
+    }
+
+.upper-container {
+  background-image: linear-gradient(to top, #ffffff, #3FDECF);
+  padding-bottom: 20px;
+
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+.app-logo {
+  height:40px;
+}
+
+.select-section {
+  text-align: center;
+}
+
+.input-section {
+  padding: 20px;
+}
+
+.user-input {
+  background-image: linear-gradient( 174.2deg,  rgba(194,233,231) 7.1%, rgb(255, 255, 255) 67.4% );
+box-shadow: rgb(193, 221, 223) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  width: 100%;
+  min-height: 150px;
+  max-width: 100%;
+  overflow-y: scroll;
+  border-radius: 5px;
+  border: 0px;
+
+}
+
+.submit-section {
+  position: relative;
+  overflow: clip;
+  padding-top: 10px;
+
+}
+
+#submit-btn {
+  position: absolute;
+  right: -40px;
+  bottom: -40px;
+  transition: transform 1s;
+  width: 70px;
+}
+
+#submit-btn:hover {
+  transform: rotateZ(180deg) scale(250%);
+}
